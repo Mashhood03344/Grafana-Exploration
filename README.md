@@ -189,7 +189,7 @@ It acts as a perfect open-source data model for storing time series data.
 
 1. **Infrastructure Monitoring:** Grafana is widely used to monitor systems like servers, networks, and storage. It helps track important metrics like CPU usage, memory, and network traffic. You can also set alerts, for example, if CPU usage goes above 80%. This helps in identifying problems and predicting future needs.
 
-2.**Application Performance Monitoring (APM):** Grafana helps monitor application health, especially in complex systems. It shows how requests move through different services, making it easier to spot slowdowns or errors. It also helps track logs and performance data to identify and fix issues faster.
+2. **Application Performance Monitoring (APM):** Grafana helps monitor application health, especially in complex systems. It shows how requests move through different services, making it easier to spot slowdowns or errors. It also helps track logs and performance data to identify and fix issues faster.
 
 3. **Business Intelligence and Analytics:** Grafana is not just for technical users. It can be used to track business data like sales, revenue, and customer stats. Companies use it for real-time dashboards that show key business metrics or reports for management.
 
