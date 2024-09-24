@@ -8,10 +8,10 @@
 1. [What is Grafana?](#what-is-grafana)
 2. [Why is Grafana Widely Used?](#why-is-grafana-widely-used)
 3. [What Features Does Grafana Have?](#what-features-does-grafana-have)
-	- [Visualization](#Visualization)
-	- [Alerting](#Alerting)
-	- [Annotations](#Annotations)
-	- [Open Source](#Open-Source-1)
+	- [Visualization](#1.-Visualization)
+	- [Alerting](#2.-Alerting)
+	- [Annotations](#3.-Annotations)
+	- [Open Source](#4.-Open-Source-1)
 4. [What Data Sources Does Grafana Support?](#what-data-sources-does-grafana-support)
 5. [Grafana Core Components: Dashboards and Panels](#grafana-core-components-dashboards-and-panels)
 6. [How Grafana Works: From Data Source to Dashboard](#how-grafana-works-from-data-source-to-dashboard)
@@ -61,7 +61,7 @@ Here are three key reasons why Grafana has gained significant popularity and wid
 
 Grafana comes with a plethora of features that provide value straight out of the box. These features are the reason Grafana is arguably one of the most popular visualization software available for metric monitoring, simply because of their ease of use:
 
-1. **Visualization**
+### 1. Visualization
 
 Grafana possesses a huge variety of visualization options to help you view and understand your data easily. These options are split into “panels” which are then used to build the Grafana dashboard.
 A panel is the most granular visualization building block in Grafana and is used to display data that has been queried from the data source attributed to that panel. For easier understanding, think of a panel as a space on the dashboard that houses a specific type of visual portrait of information.
@@ -74,20 +74,20 @@ This information is being pulled from the data source attributed to that panel a
 You could stack up panels like this to make up a dashboard, with each panel displaying its own piece of information in the manner that best suits you. Worthy of note is the fact that although Grafana ships with some pretty cool panels, you could design and add your own panels using plugins — the power of Open Source.
 
 
-2. **Alerting**
+### 2. Alerting
 
 When monitoring applications, it is essential to be made aware the second something goes wrong or is abnormal. This is vital to keeping your systems healthy and reducing downtime. Grafana has built-in support for a huge number of notification channels, be it email, Slack, PagerDuty, etc., whichever best suits you.
 
 In order to create an alert, you’d have to create and configure an alert rule. This rule serves as a trigger for your alert, such that whenever said rule is broken, an alert notification is sent via the alert notification channel you had configured into the rule. For a more detailed look into Grafana alerts, look no further than this MetricFire article — Grafana alerting.
 
 
-3. **Annotations**
+### 3. Annotations
 
 Grafana allows you to annotate, or in simple terms, leave notes directly on graphs. This simple but powerful feature provides a way to seamlessly mark important points on your graph. This serves as a reminder for further action in the future, to provide context to an onboarding team member, or to simply mark a special event on your graph.
 
 Think of it as writing a sticky note and placing it directly on your graph, but this time, you don’t need any sticky note papers. Further information on annotations can be found in our Grafana annotations tutorial article (yes, we have articles for everything Grafana!).
 
-4. **Open Source**
+### 4. Open Source
 
 Grafana is completely open source and backed by an active vibrant community. This presents some huge benefits to its users such as the flexibility to develop and publish their own plugins or use plugins developed by other people. These plugins are usually easy to install by pretty much downloading the source code and running it manually.
 
@@ -203,9 +203,8 @@ Grafana is a powerful tool for data visualization and monitoring, but it has cer
 
 1. **Limited Built-in Alerting**
 
-**Issue:** While Grafana provides alerting capabilities, its built-in alerting system is relatively basic compared to dedicated tools like Prometheus Alertmanager.
-
-**Limitation:** It lacks advanced alerting features such as routing, silencing, and deduplication, which are crucial for managing complex alerting scenarios.
+ **Issue:** While Grafana provides alerting capabilities, its built-in alerting system is relatively basic compared to dedicated tools like Prometheus Alertmanager.
+ **Limitation:** It lacks advanced alerting features such as routing, silencing, and deduplication, which are crucial for managing complex alerting scenarios.
 
 2. **Dependency on Data Sources**
 
@@ -215,31 +214,28 @@ Grafana is a powerful tool for data visualization and monitoring, but it has cer
 
 3. **Limited Support for Large-Scale Environments**
 
-**Issue:** Grafana might struggle in environments where large volumes of data need to be visualized or queried.
-**Limitation:** Dashboards with high-frequency queries or extensive data points can suffer from performance issues, causing slow loading times or timeouts.
+ **Issue:** Grafana might struggle in environments where large volumes of data need to be visualized or queried.
+ **Limitation:** Dashboards with high-frequency queries or extensive data points can suffer from performance issues, causing slow loading times or timeouts.
 
 4. **Complexity in Dashboard Management**
 
-**Issue:** Managing multiple dashboards with various panels and data sources can become complex and difficult to maintain.
-
-**Limitation:** There is no native, centralized way to manage dashboard templates or configurations for large teams, leading to fragmented or inconsistent dashboards.
+ **Issue:** Managing multiple dashboards with various panels and data sources can become complex and difficult to maintain.
+ **Limitation:** There is no native, centralized way to manage dashboard templates or configurations for large teams, leading to fragmented or inconsistent dashboards.
 
 5. **Limited Support for Role-Based Access Control (RBAC)**
 
-**Issue:** While Grafana Enterprise provides more advanced RBAC, the open-source version has limited options for managing granular permissions.
-
-**Limitation:** For organizations that need fine-grained access control, the open-source version may not be sufficient.
+ **Issue:** While Grafana Enterprise provides more advanced RBAC, the open-source version has limited options for managing granular permissions.
+ **Limitation:** For organizations that need fine-grained access control, the open-source version may not be sufficient.
 
 6. **Learning Curve**
 
-**Issue:** For beginners, Grafana’s interface and setup process can be somewhat overwhelming.
-
-**Limitation:** Users need to understand its data source integrations, panel configurations, and query languages, which can require considerable time to learn.
+ **Issue:** For beginners, Grafana’s interface and setup process can be somewhat overwhelming.
+ **Limitation:** Users need to understand its data source integrations, panel configurations, and query languages, which can require considerable time to learn.
 
 7. **Limited Annotation Features**
 
-**Issue:** Annotations in Grafana are useful for marking specific events on dashboards, but they are somewhat limited.
-**Limitation:** It does not support complex or automatic annotations based on external triggers or predefined rules, limiting flexibility in tracking events.
+ **Issue:** Annotations in Grafana are useful for marking specific events on dashboards, but they are somewhat limited.
+ **Limitation:** It does not support complex or automatic annotations based on external triggers or predefined rules, limiting flexibility in tracking events.
 
 8. **Requires Manual Configuration for Advanced Features**
 
@@ -249,25 +245,24 @@ Grafana is a powerful tool for data visualization and monitoring, but it has cer
 
 9. **Scaling and Performance Issues**
 
-**Issue:** Large-scale deployments, such as when monitoring thousands of servers, can cause Grafana to struggle with performance.
-
-**Limitation:** There may be limitations in terms of scaling the application horizontally, leading to higher infrastructure costs or performance bottlenecks.
+ **Issue:** Large-scale deployments, such as when monitoring thousands of servers, can cause Grafana to struggle with performance.
+ **Limitation:** There may be limitations in terms of scaling the application horizontally, leading to higher infrastructure costs or performance bottlenecks.
 
 10. **Limited Data Export Capabilities**
 
-**Issue:** Grafana offers minimal data export options for users who want to analyze data outside the platform.
-**Limitation:** Exporting data in bulk for offline analysis or integration with other platforms is not as seamless as in some other tools.
+ **Issue:** Grafana offers minimal data export options for users who want to analyze data outside the platform.
+ **Limitation:** Exporting data in bulk for offline analysis or integration with other platforms is not as seamless as in some other tools.
 
 11. **High Memory Usage for Large Dashboards**
 
-**Issue:** Visualizing multiple data points or complex dashboards can lead to high memory consumption.
-
-**Limitation:** On resource-constrained systems, this may result in performance degradation or crashes during heavy usage.ss
+ **Issue:** Visualizing multiple data points or complex dashboards can lead to high memory consumption.
+ **Limitation:** On resource-constrained systems, this may result in performance degradation or crashes during heavy usage.ss
 
 
 
 # References
 
 https://medium.com/@MetricFire/what-is-grafana-8de44d241765
+
 https://kodekloud.com/blog/how-grafana-works/
 https://scaleyourapp.com/what-is-grafana-why-use-it-everything-you-should-know-about-it/
