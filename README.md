@@ -206,11 +206,13 @@ Grafana is a powerful tool for data visualization and monitoring, but it has cer
 1. **Limited Built-in Alerting**
 
 **Issue:** While Grafana provides alerting capabilities, its built-in alerting system is relatively basic compared to dedicated tools like Prometheus Alertmanager.
+
 **Limitation:** It lacks advanced alerting features such as routing, silencing, and deduplication, which are crucial for managing complex alerting scenarios.
 
 2. **Dependency on Data Sources**
 
 **Issue:** Grafana relies on external data sources (e.g., Prometheus, InfluxDB, etc.) for storing and querying data.
+
 **Limitation:** It does not store data natively, making it dependent on the availability, performance, and query capabilities of the connected data sources.
 
 3. **Limited Support for Large-Scale Environments**
@@ -221,16 +223,19 @@ Grafana is a powerful tool for data visualization and monitoring, but it has cer
 4. **Complexity in Dashboard Management**
 
 **Issue:** Managing multiple dashboards with various panels and data sources can become complex and difficult to maintain.
+
 **Limitation:** There is no native, centralized way to manage dashboard templates or configurations for large teams, leading to fragmented or inconsistent dashboards.
 
 5. **Limited Support for Role-Based Access Control (RBAC)**
 
 **Issue:** While Grafana Enterprise provides more advanced RBAC, the open-source version has limited options for managing granular permissions.
+
 **Limitation:** For organizations that need fine-grained access control, the open-source version may not be sufficient.
 
 6. **Learning Curve**
 
 **Issue:** For beginners, Grafana’s interface and setup process can be somewhat overwhelming.
+
 **Limitation:** Users need to understand its data source integrations, panel configurations, and query languages, which can require considerable time to learn.
 
 7. **Limited Annotation Features**
@@ -241,11 +246,13 @@ Grafana is a powerful tool for data visualization and monitoring, but it has cer
 8. **Requires Manual Configuration for Advanced Features**
 
 **Issue:** While Grafana offers customization options, advanced features like custom plugins, themes, and complex alerts require manual configuration.
+
 **Limitation:** For advanced users, configuring these features may require significant time and effort, with limited out-of-the-box support.
 
 9. **Scaling and Performance Issues**
 
 **Issue:** Large-scale deployments, such as when monitoring thousands of servers, can cause Grafana to struggle with performance.
+
 **Limitation:** There may be limitations in terms of scaling the application horizontally, leading to higher infrastructure costs or performance bottlenecks.
 
 10. **Limited Data Export Capabilities**
@@ -256,6 +263,7 @@ Grafana is a powerful tool for data visualization and monitoring, but it has cer
 11. **High Memory Usage for Large Dashboards**
 
 **Issue:** Visualizing multiple data points or complex dashboards can lead to high memory consumption.
+
 **Limitation:** On resource-constrained systems, this may result in performance degradation or crashes during heavy usage.ss
 
 
@@ -263,5 +271,6 @@ Grafana is a powerful tool for data visualization and monitoring, but it has cer
 # References
 
 https://medium.com/@MetricFire/what-is-grafana-8de44d241765
+
 https://kodekloud.com/blog/how-grafana-works/
 https://scaleyourapp.com/what-is-grafana-why-use-it-everything-you-should-know-about-it/
