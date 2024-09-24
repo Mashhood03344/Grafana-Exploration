@@ -261,7 +261,7 @@ Grafana is a powerful tool for data visualization and monitoring, but it has cer
 
 **Issue:** Visualizing multiple data points or complex dashboards can lead to high memory consumption.
 
-**Limitation:** On resource-constrained systems, this may result in performance degradation or crashes during heavy usage.ss
+**Limitation:** On resource-constrained systems, this may result in performance degradation or crashes during heavy usage.
 
 
 
