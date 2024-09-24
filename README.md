@@ -7,14 +7,11 @@
 
 1. [What is Grafana?](#what-is-grafana)
 2. [Why is Grafana Widely Used?](#why-is-grafana-widely-used)
-	- [Fast](#fast)
-	- [Versatile](#versatile)
-	- [Open-source](#open-source)
 3. [What Features Does Grafana Have?](#what-features-does-grafana-have)
-	- [Visualization](#visualization)
-	- [Alerting](#alerting)
-	- [Annotations](#annotations)
-	- [Open Source](#open-source-1)
+	- [Visualization](#Visualization)
+	- [Alerting](#Alerting)
+	- [Annotations](#Annotations)
+	- [Open Source](#Open-Source-1)
 4. [What Data Sources Does Grafana Support?](#what-data-sources-does-grafana-support)
 5. [Grafana Core Components: Dashboards and Panels](#grafana-core-components-dashboards-and-panels)
 6. [How Grafana Works: From Data Source to Dashboard](#how-grafana-works-from-data-source-to-dashboard)
@@ -51,12 +48,13 @@ It is also possible to set alerts so you can quickly and easily be notified of a
 
 Here are three key reasons why Grafana has gained significant popularity and widespread adoption among organizations of all sizes and industries:
 
-	- Fast: Grafana is known for its exceptional performance. The backend of Grafana is powered by Go, a programming language renowned for its speed and efficiency. Go's lightweight nature and native compilation enable Grafana to handle large volumes of data and render visualizations quickly. This means that even when dealing with massive datasets and complex dashboards, Grafana remains responsive and provides a smooth user experience.
-	- Versatile: Grafana follows a plugin architecture, which allows users to extend its functionality and integrate with a wide range of data sources. Whether you are working with NoSQL/SQL databases, project management tools like Jira, or CI/CD tools like GitLab, Grafana has you covered. 
+- Fast: Grafana is known for its exceptional performance. The backend of Grafana is powered by Go, a programming language renowned for its speed and efficiency. Go's lightweight nature and native compilation enable Grafana to handle large volumes of data and render visualizations quickly. This means that even when dealing with massive datasets and complex dashboards, Grafana remains responsive and provides a smooth user experience.
 
-Beyond data source plugins, Grafana also supports panel plugins for custom visualization types and app plugins that add new features and integrate applications directly into the Grafana ecosystem. This extensive collection of plugins ensures that Grafana can seamlessly integrate with your existing infrastructure and provide a unified view of your data.
+- Versatile: Grafana follows a plugin architecture, which allows users to extend its functionality and integrate with a wide range of data sources. Whether you are working with NoSQL/SQL databases, project management tools like Jira, or CI/CD tools like GitLab, Grafana has you covered. 
 
-	- Open-source: Grafana is an open-source software. This means that you have cosmplete access to the source code, allowing you to inspect, modify, and contribute to the project.
+   Beyond data source plugins, Grafana also supports panel plugins for custom visualization types and app plugins that add new features and integrate applications directly into the Grafana ecosystem. This extensive collection of plugins ensures that Grafana can seamlessly integrate with your existing infrastructure and provide a unified view of your data.
+
+- Open-source: Grafana is an open-source software. This means that you have cosmplete access to the source code, allowing you to inspect, modify, and contribute to the project.
 
 
 ## What features does Grafana have?
@@ -271,6 +269,5 @@ Grafana is a powerful tool for data visualization and monitoring, but it has cer
 # References
 
 https://medium.com/@MetricFire/what-is-grafana-8de44d241765
-
 https://kodekloud.com/blog/how-grafana-works/
 https://scaleyourapp.com/what-is-grafana-why-use-it-everything-you-should-know-about-it/
