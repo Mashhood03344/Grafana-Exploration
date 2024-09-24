@@ -8,10 +8,6 @@
 1. [What is Grafana?](#what-is-grafana)
 2. [Why is Grafana Widely Used?](#why-is-grafana-widely-used)
 3. [What Features Does Grafana Have?](#what-features-does-grafana-have)
-	- [Visualization](#1.-Visualization)
-	- [Alerting](#2.-Alerting)
-	- [Annotations](#3.-Annotations)
-	- [Open Source](#4.-Open-Source-1)
 4. [What Data Sources Does Grafana Support?](#what-data-sources-does-grafana-support)
 5. [Grafana Core Components: Dashboards and Panels](#grafana-core-components-dashboards-and-panels)
 6. [How Grafana Works: From Data Source to Dashboard](#how-grafana-works-from-data-source-to-dashboard)
@@ -22,7 +18,7 @@
 8. [What is Grafana Cloud?](#what-is-grafana-cloud)
 9. [What is Grafana Enterprise?](#what-is-grafana-enterprise)
 10. [What is Prometheus Grafana?](#What-is-Prometheus-Grafana?)
-11. [Common Use Cases of Grafana](#Common-Use Cases-of-Grafana)
+11. [Common Use Cases of Grafana](#Common-Use-Cases-of-Grafana)
 12. [Limitations of Grafana](#Limitations-of-Grafana)
 13. [References](#References)
 
@@ -203,8 +199,9 @@ Grafana is a powerful tool for data visualization and monitoring, but it has cer
 
 1. **Limited Built-in Alerting**
 
- **Issue:** While Grafana provides alerting capabilities, its built-in alerting system is relatively basic compared to dedicated tools like Prometheus Alertmanager.
- **Limitation:** It lacks advanced alerting features such as routing, silencing, and deduplication, which are crucial for managing complex alerting scenarios.
+**Issue:** While Grafana provides alerting capabilities, its built-in alerting system is relatively basic compared to dedicated tools like Prometheus Alertmanager.
+
+**Limitation:** It lacks advanced alerting features such as routing, silencing, and deduplication, which are crucial for managing complex alerting scenarios.
 
 2. **Dependency on Data Sources**
 
@@ -214,28 +211,33 @@ Grafana is a powerful tool for data visualization and monitoring, but it has cer
 
 3. **Limited Support for Large-Scale Environments**
 
- **Issue:** Grafana might struggle in environments where large volumes of data need to be visualized or queried.
- **Limitation:** Dashboards with high-frequency queries or extensive data points can suffer from performance issues, causing slow loading times or timeouts.
+**Issue:** Grafana might struggle in environments where large volumes of data need to be visualized or queried.
+
+**Limitation:** Dashboards with high-frequency queries or extensive data points can suffer from performance issues, causing slow loading times or timeouts.
 
 4. **Complexity in Dashboard Management**
 
- **Issue:** Managing multiple dashboards with various panels and data sources can become complex and difficult to maintain.
- **Limitation:** There is no native, centralized way to manage dashboard templates or configurations for large teams, leading to fragmented or inconsistent dashboards.
+**Issue:** Managing multiple dashboards with various panels and data sources can become complex and difficult to maintain.
+
+**Limitation:** There is no native, centralized way to manage dashboard templates or configurations for large teams, leading to fragmented or inconsistent dashboards.
 
 5. **Limited Support for Role-Based Access Control (RBAC)**
 
- **Issue:** While Grafana Enterprise provides more advanced RBAC, the open-source version has limited options for managing granular permissions.
- **Limitation:** For organizations that need fine-grained access control, the open-source version may not be sufficient.
+**Issue:** While Grafana Enterprise provides more advanced RBAC, the open-source version has limited options for managing granular permissions.
+
+**Limitation:** For organizations that need fine-grained access control, the open-source version may not be sufficient.
 
 6. **Learning Curve**
 
- **Issue:** For beginners, Grafana’s interface and setup process can be somewhat overwhelming.
- **Limitation:** Users need to understand its data source integrations, panel configurations, and query languages, which can require considerable time to learn.
+**Issue:** For beginners, Grafana’s interface and setup process can be somewhat overwhelming.
+
+**Limitation:** Users need to understand its data source integrations, panel configurations, and query languages, which can require considerable time to learn.
 
 7. **Limited Annotation Features**
 
- **Issue:** Annotations in Grafana are useful for marking specific events on dashboards, but they are somewhat limited.
- **Limitation:** It does not support complex or automatic annotations based on external triggers or predefined rules, limiting flexibility in tracking events.
+**Issue:** Annotations in Grafana are useful for marking specific events on dashboards, but they are somewhat limited.
+
+**Limitation:** It does not support complex or automatic annotations based on external triggers or predefined rules, limiting flexibility in tracking events.
 
 8. **Requires Manual Configuration for Advanced Features**
 
@@ -245,18 +247,21 @@ Grafana is a powerful tool for data visualization and monitoring, but it has cer
 
 9. **Scaling and Performance Issues**
 
- **Issue:** Large-scale deployments, such as when monitoring thousands of servers, can cause Grafana to struggle with performance.
- **Limitation:** There may be limitations in terms of scaling the application horizontally, leading to higher infrastructure costs or performance bottlenecks.
+**Issue:** Large-scale deployments, such as when monitoring thousands of servers, can cause Grafana to struggle with performance.
+
+**Limitation:** There may be limitations in terms of scaling the application horizontally, leading to higher infrastructure costs or performance bottlenecks.
 
 10. **Limited Data Export Capabilities**
 
- **Issue:** Grafana offers minimal data export options for users who want to analyze data outside the platform.
- **Limitation:** Exporting data in bulk for offline analysis or integration with other platforms is not as seamless as in some other tools.
+**Issue:** Grafana offers minimal data export options for users who want to analyze data outside the platform.
+
+**Limitation:** Exporting data in bulk for offline analysis or integration with other platforms is not as seamless as in some other tools.
 
 11. **High Memory Usage for Large Dashboards**
 
- **Issue:** Visualizing multiple data points or complex dashboards can lead to high memory consumption.
- **Limitation:** On resource-constrained systems, this may result in performance degradation or crashes during heavy usage.ss
+**Issue:** Visualizing multiple data points or complex dashboards can lead to high memory consumption.
+
+**Limitation:** On resource-constrained systems, this may result in performance degradation or crashes during heavy usage.ss
 
 
 
